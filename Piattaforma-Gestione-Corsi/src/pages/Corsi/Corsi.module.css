@@ -1,0 +1,25 @@
+.pageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+}
+
+@media (max-width: 768px) {
+    .pageContainer {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .pageContainer {
+        padding: 5px;
+    }
+
+    .pageContainer h1 {
+        font-size: 1.5rem;
+    }
+}
